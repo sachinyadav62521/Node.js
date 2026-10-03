@@ -1,0 +1,33 @@
+//let now = new Date();
+
+console.log(now);
+
+const timestamp = Date.now();
+
+//console.log(timestamp);
+
+const date = new Date();
+
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getDay());
+
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+console.log(date.getMilliseconds());
+
+date.setMonth(5);
+date.setDate(15);
+date.setHours(10);
+date.setMinutes(30);
+date.setSeconds(45);
+
+console.log(date.toISOString());
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+
+console.log(`${day}/${month}/${year}`);
