@@ -1,31 +1,63 @@
-function sayMyName(){
-    console.log("Sachin")
+// function sayMyName(){
+//     console.log("Sachin")
+// }
+// sayMyName()
+
+// function addTwoNumbers(number1, number2){
+//     // let result = number1 + number2
+//     // return result
+//     return number1 + number2
+// }
+// const result = addTwoNumbers(2, 3)
+// // console.log("Result: ",result);
+
+// function loginUserMessage(username){
+//     return `${username} just logged in`
+// }
+// console.log(loginUserMessage("Sachin"))
+
+
+// function loginUserMessage (username) {
+// if(!username) {
+// console. log("PLease enter a username");
+// return
+// I
+
+// return '${username} just logged in'
+
+// }
+
+// // console. log(loginUserMessage("hitesh") )
+// console. log(loginUserMessage () )
+
+function calculateCartPrice(...num1){
+    return num1
 }
-sayMyName()
+console.log(calculateCartPrice(455,323,555));
 
-function addTwoNumbers(number1, number2){
-    // let result = number1 + number2
-    // return result
-    return number1 + number2
-}
-const result = addTwoNumbers(2, 3)
-// console.log("Result: ",result);
+// function calculateCartPrice(val1, val2, ... num1) {
+// return num1
 
-function loginUserMessage(username){
-    return `${username} just logged in`
-}
-console.log(loginUserMessage("Sachin"))
+// console. log(calculateCartPrice(200, 400, 500, 2000)
 
 
-function loginUserMessage (username) {
-if(!username) {
-console. log("PLease enter a username");
-return
-I
+const user = {
+username: "hitesh",
+prices: 199
 
-return '${username} just logged in'
+function handle0bject (anyobject) {
+console.log(`Username is ${anyobject.username} and price is $
+{anyobject.price} ');
 
 }
 
-// console. log(loginUserMessage("hitesh") )
-console. log(loginUserMessage () )
+handleObject (user)
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray) {
+return getArray[1]
+
+}
+
+console.log(returnSecondValue(myNewArray) ) ;
