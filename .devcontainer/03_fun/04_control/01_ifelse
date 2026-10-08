@@ -1,0 +1,36 @@
+// if
+const isUserloggedInn = true
+
+if ( 2 != 3 ) {
+console. log("executed");
+
+I
+
+}
+
+// <, >, <= , >=, == , != , === , !=
+
+const isUserloggedIn = true
+const temperature = 41
+
+if ( temperature === 40 ) {
+console. log("less than 50");
+} else {
+console. log("temperature is greater than 50");
+
+// if (balance > 500) console.log("test"),console.log("test2");
+
+const isUserloggedIn = true
+const debitCard = true
+if(isUserloggedIn && debitCard && 2 == 3){
+    console.log("Allow to buy course")
+
+}
+
+const loggedInFromEmail = true
+const loggedInFromGoogle
+
+if (loggedInFromEmail || loggedInFromGoogle){
+    console.log("User logged in");
+    
+}
